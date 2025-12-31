@@ -1,5 +1,6 @@
 import './App.css'
 import { ArraySliceExample } from './array/ArraySliceExample'
+import { ArraySpliceExample } from './array/ArraySpliceExample'
 import { MapExample } from './assets/map/MapExample'
 import { MapFilterExample } from './assets/map/MapFilterExample'
 import { MapReduceExample } from './assets/map/MapReduceExample'
@@ -39,6 +40,7 @@ function App() {
         <MapReduceExample/>
         <MapFilterExample/>
         <ArraySliceExample/>
+        <ArraySpliceExample/>
       </div>
       
     </>
