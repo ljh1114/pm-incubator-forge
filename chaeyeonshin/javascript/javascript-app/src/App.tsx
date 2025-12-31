@@ -6,7 +6,8 @@ import { ControlFlowSwitch } from './control_flow/ControlFlowSwitch'
 import { VariableAndDataTypes } from './data_type/VariableAndDataTypes'
 import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
 import { CalculationExample } from './math_operation/CalculationExample'
-
+import { ControlFlowForSummExample } from './control_flow/ControlFlowForSumExample'
+import { SecondProblem } from './problem/SecondProblem'
 
 function App() {
 
@@ -29,6 +30,8 @@ function App() {
         <ControlFlowSwitch />
         <ControlFlowFor />
         <ControlFlowForSummation />
+        <ControlFlowForSummExample />
+        <SecondProblem />
       </div>
     </>
   )
