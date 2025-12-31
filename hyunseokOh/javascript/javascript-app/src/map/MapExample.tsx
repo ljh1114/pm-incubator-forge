@@ -1,18 +1,13 @@
 export const MapExample = () => {
-    let loopResultArray = [];// 결과를 저장할 배열
-    let summation = 0; // 합계를 저장할 변수
-
-    for (let i = 1; i <= 5; i++) {// 1부터 5까지 반복
-        loopResultArray.push(i*3);
-        summation += loopResultArray[loopResultArray.length - 1]; // 배열 요소들을 합산
-    }
+    let number_array: number[] = [1, 2, 3, 4, 5];
+    let mapped_array = number_array.map((num) => num * num);
 
     return (
         <div>
             <h2>Map Example</h2>
             <pre>{`
-loopResultArray = ${loopResultArray}; // for 문 결과 저장
-summation = ${summation}; // 배열 요소들의 합계 저장
+number_array = [${number_array.join(", ")}]; // 원본 배열
+mapped_array = [${mapped_array.join(", ")}]; // map 함수 결과 저장
             `
             }</pre>        
         </div>

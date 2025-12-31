@@ -12,6 +12,7 @@ import { ControlFlowFor } from './control_flow/ControlFlowFor'
 import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation'
 import { ControlFlowForSumExample } from './control_flow/ControlFlowForSumExample'
 import { SecondProblem } from './problem/SecondProblem'
+import { MapExample } from './map/MapExample'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,21 +22,16 @@ function App() {
       <div>
         {/* 커스텀 컴포넌트 */}
         <CalculationExample/>
-        <br />
         <VariableAndDataTypes/>
-        <br />
         <LogicalOperationExample/>
-        <br />
         <ControlFlowIf/>
-        <br />
         <FirstProblem/>
-        <br />
         <ControlFlowSwitch/>
-        <br />
         <ControlFlowFor/>
         <ControlFlowForSummation/>
         <ControlFlowForSumExample/>
         <SecondProblem/>
+        <MapExample/>
       </div>
     </>
   )
