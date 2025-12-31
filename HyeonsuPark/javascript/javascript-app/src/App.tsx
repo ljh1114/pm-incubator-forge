@@ -13,6 +13,7 @@ import { LogicalOperationExample } from './logical_operation/LogicalOperationExa
 import { FirstProblem } from './problem/FirstProblem'
 import { SecondProblem } from './problem/SecondProblem'
 import { ArraySliceExample } from './array/ArraySliceExample'
+import { ArraySpliceExample } from './array/ArraySpliceExample'
 
 function App() {
  
@@ -38,6 +39,7 @@ function App() {
         <MapReduceExample/>
         <MapFilterExample/>
         <ArraySliceExample/>
+        <ArraySpliceExample/>
       </div>
     </>
   )
